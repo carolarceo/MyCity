@@ -1,3 +1,105 @@
 <resources>
-    <string name="app_name">MyCity</string>
+
+
+    <string name="app_name">My City</string>
+
+    <string name="ciudad">Campeche</string>
+
+    <string name="ciudad_texto">La ciudad de Campeche,
+        capital del estado homónimo en México,
+        es un tesoro histórico que cautiva con su encanto colonial
+        y su vibrante cultura. Sus calles empedradas
+        y sus imponentes murallas cuentan la historia de siglos pasados,
+        cuando la ciudad era un importante puerto comercial y bastión
+        defensivo contra los ataques de piratas.
+        La arquitectura colonial se mezcla con la influencia maya
+        en sus templos y edificaciones, creando un
+        paisaje urbano único que invita a perderse entre sus callejuelas.</string>
+
+
+
+    <string name="ciudad_texto2">Además, su gastronomía auténtica,
+        con platillos como el pan de cazón y el pulpo en su tinta,
+        ofrece una experiencia culinaria inolvidable. Campeche invita
+        a explorar su riqueza cultural y a disfrutar de la hospitalidad
+        de su gente en un entorno cálido y acogedor.</string>
+
+
+
+
+    <string name="categories_list">Campeche</string>
+    <string name="places_list">Categoría</string>
+    <string name="places_detail">Place</string>
+    <string name="back_button">Back</string>
+
+
+
+    <string name="cafes">Cafes</string>
+    <string name="barrios">Barrios Tradicionales</string>
+    <string name="fuertes">Fuertes</string>
+    <string name="restaurantes">Restaurantes</string>
+
+
+
+    <string name="cafe1">Origen</string>
+    <string name="cafe2">Alta Gracia Cafe</string>
+    <string name="cafe3">Luan</string>
+    <string name="cafe4">Chocol-Ha</string>
+
+
+    <string name="cafe1_direccion">Calle 12 #181 x 59 y 61 Entre Calle 59 Y 61. A Tan Solo Unos Pasos Despues De La Calle 59.</string>
+    <string name="cafe2_direccion">Calle 10 o Del Comercio Num 351 Entre 61 y 63 Centro Historico, Campeche 24000 México.</string>
+    <string name="cafe3_direccion">Calle 59 #35 X 14 Y 12 Centro Calle 14 x 59 y 57 Centro #132, Campeche 24000 México.</string>
+    <string name="cafe4_direccion">Calle 59 # 30 Centro Historico, Campeche 24000 México</string>
+
+    <string name="cafe1_numero">981 207 4435</string>
+    <string name="cafe2_numero">981 813 0838</string>
+    <string name="cafe3_numero">981 811 5205</string>
+    <string name="cafe4_numero">981 811 7893</string>
+
+
+    <string name="barrio1">San Francisco</string>
+    <string name="barrio2">San Roman</string>
+    <string name="barrio3">Santa Ana</string>
+    <string name="barrio4">Santa Lucía</string>
+    <string name="barrio5">Guadalupe</string>
+
+    <string name="barrio1_direc">Barrio de San Francisco, San Francisco de Campeche, Camp.</string>
+    <string name="barrio2_direc">Barrio de San Roman, San Francisco de Campeche, Camp.</string>
+    <string name="barrio3_direc">Barrio de Sta Ana, San Francisco de Campeche, Camp.</string>
+    <string name="barrio4_direc">Barrio de Sta Lucía, San Francisco de Campeche, Camp.</string>
+    <string name="barrio5_direc">Barrio de Guadalupe, San Francisco de Campeche, Camp.</string>
+
+    <string name="fuerte1">Puerta de Mar</string>
+    <string name="fuerte2">Puerta de Tierra</string>
+    <string name="fuerte3">Fuerte de San José</string>
+    <string name="fuerte4">Fuerte de San Miguel</string>
+
+    <string name="fuerte1_direc">Calle 8, Zona Centro, 24000 San Francisco de Campeche, Camp.</string>
+    <string name="fuerte2_direc">Av Cto Baluartes, Zona Centro, 24000 San Francisco de Campeche, Camp.</string>
+    <string name="fuerte3_direc">Av Francisco Morazán, Bellavista, 24020 San Francisco de Campeche, Camp.</string>
+    <string name="fuerte4_direc">Carr. Escénica, Zona Centro, 24030 San Francisco de Campeche, Camp.</string>
+
+    <string name="restaurant1">La Parroquia</string>
+    <string name="restaurant2">Hacienda Chakká</string>
+    <string name="restaurant3">El Langostino</string>
+    <string name="restaurant4">Aduana Vasconcelos</string>
+
+    <string name="restaurant1_direccion">C C. 55 8, Zona Centro, 24000 Amurallada, Camp..</string>
+    <string name="restaurant2_direccion">Av Fundadores, Área No 4, Área Ah, 24014 San Francisco de Campeche</string>
+    <string name="restaurant3_direccion">C. 10-B No. 4, Barrio de la Ermita, 24020 San Francisco de Campeche, Camp.</string>
+    <string name="restaurant4_direccion">C. 59 1, Zona Centro, 24000 San Francisco de Campeche, Camp.</string>
+
+    <string name="restaurant1_numero">981 816 2530</string>
+    <string name="restaurant2_numero">981 103 4985</string>
+    <string name="restaurant3_numero">981 815 4056</string>
+    <string name="restaurant4_numero">981 113 9284</string>
+
+    <string name="none">-- -- --</string>
+
+
+
+
+
+
 </resources>

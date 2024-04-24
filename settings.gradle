@@ -13,6 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "MyCity"
-include(":app")
- 
+rootProject.name = "My City"
+include ':app'

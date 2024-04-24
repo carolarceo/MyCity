@@ -16,32 +16,62 @@ import androidx.compose.ui.platform.LocalView
 import androidx.core.view.WindowCompat
 
 private val DarkColorScheme = darkColorScheme(
-    primary = Purple80,
-    secondary = PurpleGrey80,
-    tertiary = Pink80
+    primary = dark_primary,
+    primaryContainer = dark_primary_container,
+    onPrimary = dark_on_primary,
+    onPrimaryContainer = dark_on_primary_container,
+    secondary = dark_secondary,
+    onSecondary = dark_on_secondary,
+    secondaryContainer = dark_secondary_container,
+    onSecondaryContainer = dark_on_secondary_container,
+    tertiary = dark_tertiary,
+    onTertiary = dark_on_tertiary,
+    tertiaryContainer = dark_tertiary_container,
+    onTertiaryContainer = dark_on_tertiary_container,
+    error = dark_error,
+    onError = dark_on_error,
+    errorContainer = dark_error_container,
+    onErrorContainer = dark_on_error_container,
+    background = dark_background,
+    onBackground = dark_on_background,
+    surface = dark_surface,
+    onSurface = dark_on_surface,
+    outline = dark_outline,
+    surfaceVariant = dark_surface_variant,
+    onSurfaceVariant = dark_on_surface_variant
 )
 
 private val LightColorScheme = lightColorScheme(
-    primary = Purple40,
-    secondary = PurpleGrey40,
-    tertiary = Pink40
-
-    /* Other default colors to override
-    background = Color(0xFFFFFBFE),
-    surface = Color(0xFFFFFBFE),
-    onPrimary = Color.White,
-    onSecondary = Color.White,
-    onTertiary = Color.White,
-    onBackground = Color(0xFF1C1B1F),
-    onSurface = Color(0xFF1C1B1F),
-    */
+    primary = light_primary,
+    primaryContainer = light_primary_container,
+    onPrimary = light_on_primary,
+    onPrimaryContainer = light_on_primary_container,
+    secondary = light_secondary,
+    onSecondary = light_on_secondary,
+    secondaryContainer = light_secondary_container,
+    onSecondaryContainer = light_on_secondary_container,
+    tertiary = light_tertiary,
+    onTertiary = light_on_tertiary,
+    tertiaryContainer = light_tertiary_container,
+    onTertiaryContainer = light_on_tertiary_container,
+    error = light_error,
+    onError = light_on_error,
+    errorContainer = light_error_container,
+    onErrorContainer = light_on_error_container,
+    background = light_background,
+    onBackground = light_on_background,
+    surface = light_surface,
+    onSurface = light_on_surface,
+    outline = light_outline,
+    surfaceVariant = light_surface_variant,
+    onSurfaceVariant = light_on_surface_variant
 )
 
 @Composable
 fun MyCityTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
-    dynamicColor: Boolean = true,
+    dynamicColor: Boolean = false,
     content: @Composable () -> Unit
 ) {
     val colorScheme = when {
